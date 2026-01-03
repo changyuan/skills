@@ -1,0 +1,39 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "social-media-publisher": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "node --loader ts-node/esm index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "social-media",
+    "publisher",
+    "wechat",
+    "bilibili",
+    "twitter"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "MCP server for publishing content to multiple social media platforms",
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.56.0",
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "axios": "^1.7.9",
+    "markdown-it": "^14.1.0",
+    "twitter-api-v2": "^1.28.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

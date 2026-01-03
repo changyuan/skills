@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evaluation>
+  <!-- Factual retrieval -->
+  <qa_pair>
+    <question>What is the title of the movie with ID tt1375666?</question>
+    <answer>Inception</answer>
+  </qa_pair>
+
+  <!-- Counting -->
+  <qa_pair>
+    <question>How many movies are in the database?</question>
+    <answer>100</answer>
+  </qa_pair>
+
+  <!-- Filtering by genre -->
+  <qa_pair>
+    <question>List all action movies released in 2020</question>
+    <answer>5</answer>
+  </qa_pair>
+
+  <!-- Rating threshold -->
+  <qa_pair>
+    <question>How many movies have a rating above 8.0?</question>
+    <answer>23</answer>
+  </qa_pair>
+
+  <!-- Lookup specific detail -->
+  <qa_pair>
+    <question>Who directed Inception?</question>
+    <answer>Christopher Nolan</answer>
+  </qa_pair>
+
+  <!-- Sorting -->
+  <qa_pair>
+    <question>What is the highest-rated movie?</question>
+    <answer>The Shawshank Redemption</answer>
+  </qa_pair>
+
+  <!-- Year-based query -->
+  <question>List all movies released in 2019</question>
+  <answer>12</answer>
+  </qa_pair>
+
+  <!-- Actor lookup -->
+  <qa_pair>
+    <question>Which movies feature Leonardo DiCaprio?</question>
+    <answer>3</answer>
+  </qa_pair>
+
+  <!-- Combined filters -->
+  <qa_pair>
+    <question>How many drama movies from 2018 have ratings above 7.0?</question>
+    <answer>7</answer>
+  </qa_pair>
+
+  <!-- Summary statistics -->
+  <qa_pair>
+    <question>What is the average rating across all movies?</question>
+  <answer>7.2</answer>
+  </qa_pair>
+</evaluation>
