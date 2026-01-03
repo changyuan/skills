@@ -1,11 +1,6 @@
 ---
 name: mimeng-writing
 description: 咪蒙爆款文章写作技巧。适用于需要创作10万+阅读量爆款文章、情感共鸣类内容、故事叙事或社会议题评论时使用。掌握标题制造、开篇设计、情绪调动、金句提炼、故事叙事等核心技巧。
-metadata:
-  author: Qianru Tian
-  email: fleurytian@gmail.com
-  social: 小红书@如宝｜AI&Analytics
-  GitHub:fleurytian
 ---
 
 # 咪蒙写作技巧 - 10万+爆款文章创作指南
